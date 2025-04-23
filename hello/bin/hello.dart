@@ -1,8 +1,46 @@
 
 import 'dart:ffi';
+import 'person.dart';
 
+
+/*class Person{
+  String? name;
+  int? age;
+
+  Person.undefined(): this("undefined", 18);
+ 
+  Person (this.name, this.age);
+
+  void  display() => print("Name: $name \tAge: $age");
+
+}*/
 void main() {
- final todayDate = DateTime.now();
+
+Person guga = Person("rajab", 33);
+guga.display();
+
+
+
+
+
+
+
+/*Person tom = Person("Gogi", 45);
+tom.display();
+
+Person gogi = Person("gugug", 23);
+gogi.display();
+
+Person momo = Person.undefined();
+momo.display();*/
+
+/* Person tom = Person()
+ ..name = "gogi2"
+ ..age = 23
+ ..display();*/
+
+
+ /*final todayDate = DateTime.now();
  print(todayDate);
 
 
@@ -143,5 +181,5 @@ Function other(){
     n++;
     print(n);
   }
-  return inner;
+  return inner;*/
 }
